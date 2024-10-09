@@ -47,9 +47,13 @@ const forgedNFTs = [
 ];
 
 export default function ForgingSection() {
+  const handleCraft = (id: number) => {
+    console.log(`Craft NFT id: ${id}`);
+    // Add any other logic you need here based on the id
+  };
+
   return (
     <section className="w-full max-w-6xl">
-      {/* Update the heading and border colors */}
       <h2 className="text-4xl font-bold text-center mb-8 text-[#5d4037] border-b-4 border-[#5d4037] pb-2 shadow-md">
         Craft Items
       </h2>
@@ -57,11 +61,11 @@ export default function ForgingSection() {
         {forgedNFTs.map((nft) => (
           <NFTCard
             key={nft.id}
-            id={nft.id}
+            id={nft.id} // Pass the id to the NFTCard
             name={nft.name}
             image={nft.image}
             isOwned={nft.owned}
-            onActionClick={() => console.log(`Craft NFT id: ${nft.id}`)}
+            onActionClick={handleCraft} // Use the id in the action handler
             actionText="Craft"
             requirements={nft.requirements}
           />

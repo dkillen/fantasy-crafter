@@ -1,17 +1,17 @@
 "use client";
 
 interface NFTCardProps {
-  id: number;
+  id: number; // Keep the id prop if you want to use it
   name: string;
   image: string;
   isOwned: number;
-  onActionClick: () => void;
+  onActionClick: (id: number) => void; // Use id in the action
   actionText: string;
   requirements?: { id: number; owned: number }[];
 }
 
 export default function NFTCard({
-  id,
+  id, // You can use this for tracking purposes
   name,
   image,
   isOwned,
@@ -24,7 +24,7 @@ export default function NFTCard({
       <div>
         <p className="text-2xl font-bold mb-2 text-yellow-400">{name}</p>
         <div className="h-40 bg-gray-300 rounded mb-4 shadow-inner">
-          <p className="text-gray-700">{image}</p>
+          <img src={image} alt={name} className="h-full w-full object-cover rounded" />
         </div>
         <p className="text-lg font-bold mb-2 text-white">{isOwned} NFTs Owned</p>
         {requirements && (
@@ -38,8 +38,9 @@ export default function NFTCard({
           </div>
         )}
       </div>
+      {/* Use the id in the onClick handler */}
       <button
-        onClick={onActionClick}
+        onClick={() => onActionClick(id)} // Pass the id to the parent when clicked
         className="bg-yellow-500 text-black px-4 py-2 rounded-full hover:bg-yellow-600 transition transform hover:scale-110 shadow-md"
       >
         {actionText}
