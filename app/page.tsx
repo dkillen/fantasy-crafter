@@ -7,6 +7,7 @@ import {
 import { WagmiProvider } from 'wagmi';
 import {
   holesky,
+  sepolia,
 } from 'wagmi/chains';
 import {
   QueryClientProvider,
@@ -20,7 +21,7 @@ import ForgingSection from './components/ForgingSection';
 const config = getDefaultConfig({
   appName: 'Fantasy Crafter',
   projectId: 'bc9a800ed2519e99f384f031b09975e0',
-  chains: [holesky],
+  chains: [sepolia, holesky],
   ssr: true,
 });
 
