@@ -1,4 +1,4 @@
-export const forgeContractAddress = '';
+export const forgeContractAddress = '0xa9CB58C36D45Ec572D141EFBDC3CB5183a905e83';
 
 export const forgeContractABI = [
   {

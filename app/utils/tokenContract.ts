@@ -1,4 +1,4 @@
-export const tokenContractAddress = '';
+export const tokenContractAddress = '0xeC29179775ac69E59bc348A2c6308B29F3bd7F1b';
 
 export const tokenContractABI = [
   {
