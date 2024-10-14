@@ -16,10 +16,10 @@ contract TheForgeTokens is ERC1155, Ownable2Step {
     address public forge;
 
     constructor()
-        ERC1155("ipfs://QmcfhtHVJi1hec3NzuspUWUcvebdro2XTUS4VTTK67UH3W/")
+        ERC1155("ipfs://QmRN9CdteBFLNkzUwxwuBPk6MQbAjuWK5AsX71XYHmnth3/")
         Ownable(msg.sender)
     {
-        baseURI = "ipfs://QmcfhtHVJi1hec3NzuspUWUcvebdro2XTUS4VTTK67UH3W/";
+        baseURI = "ipfs://QmRN9CdteBFLNkzUwxwuBPk6MQbAjuWK5AsX71XYHmnth3/";
     }
 
     function setForge(address addr) external onlyOwner {

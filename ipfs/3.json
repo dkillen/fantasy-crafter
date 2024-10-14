@@ -1,7 +1,7 @@
 {
   "name": "Stone Axe",
   "description": "A basic tool for harvesting and working with wood.",
-  "image": "",
+  "image": "ipfs://QmcAQZ8HPZL4oEu3pEDzXpeRyPDcmW5i28R1LDBQkpmof1",
   "attributes": [
     {
       "trait_type": "Item Type",

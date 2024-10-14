@@ -1,7 +1,7 @@
 {
   "name": "Knife",
   "description": "A versatile bladed tool handy for gathering materials and crafting many items.",
-  "image": "",
+  "image": "ipfs://QmeZpKmCeFQdHpM7SCrfBfVPPMvqw8cy3L1MhKz6QWm9D5",
   "attributes": [
     {
       "trait_type": "Item Type",

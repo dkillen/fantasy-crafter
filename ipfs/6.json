@@ -1,7 +1,7 @@
 {
   "name": "Sword",
   "description": "A bladed weapom useful for defence and attack.",
-  "image": "",
+  "image": "ipfs://QmW31TfcBUVbhNwtCSd8ki8FWCZBXzQ2iZNzcBDULgEv6v",
   "attributes": [
     {
       "trait_type": "Item Type",

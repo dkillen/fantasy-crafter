@@ -1,7 +1,7 @@
 {
   "name": "Anvil",
   "description": "A robust tool for shpaing and crafting various metal items.",
-  "image": "",
+  "image": "ipfs://QmPFNp9cgXmpytrkb72oFyFr8biTyeWwzMw9LYHmaSEZrb",
   "attributes": [
     {
       "trait_type": "Item Type",
