@@ -1,0 +1,19 @@
+{
+  "name": "Stone Axe",
+  "description": "A basic tool for harvesting and working with wood.",
+  "image": "",
+  "attributes": [
+    {
+      "trait_type": "Item Type",
+      "value": "Craftable"
+    },
+    {
+      "trait_type": "Cost",
+      "value": "1 Wood, 1 Stone"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Uncommon"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Sword",
+  "description": "A bladed weapom useful for defence and attack.",
+  "image": "",
+  "attributes": [
+    {
+      "trait_type": "Item Type",
+      "value": "Craftable"
+    },
+    {
+      "trait_type": "Cost",
+      "value": "1 Wood, 1 Stone, 1 Iron"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ]
+}
