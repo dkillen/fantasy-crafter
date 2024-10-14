@@ -6,7 +6,6 @@ import {
 } from '@rainbow-me/rainbowkit';
 import { WagmiProvider } from 'wagmi';
 import {
-  holesky,
   sepolia,
 } from 'wagmi/chains';
 import {
